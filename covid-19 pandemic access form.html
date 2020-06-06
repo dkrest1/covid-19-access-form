@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<htmlh>
+    <head>
+        <title>covid-19 access form</title>
+        <link type="text/css" rel="stylesheet" href="css/covid19.css">
+    </head>
+    <body>
+        <h1 class="one">CORONA VIRUS DISEASE 2019 (covid-19)</h1>
+        <P>the corona virus also know as covid-19 was first discovered in wuhan,china sometimes around november 2019, it was said ti be contracted from bat, a said animal in china market in wuhan ,it began to spread across the world , the world health organization decleared it a pandemic in february due to how its rapidly spreading across the globe, major countries affected are china, united state of america, the united kingdom, and italy leaving the nations vulnerable</P>
+        <h2>covid-19 form filling</h2>
+        <p>please fill in the form below accordingly to help reduce the spread of the pandemic</p>
+        <form action="http://covid-19.php" method="POST">
+            <fieldset>
+                <legend>
+                    your details:
+                </legend>
+                <label>
+                    Name:
+                    <input type="text" name="name" maxlength="40"><br>
+                </label>
+                    Gender:
+                <input type="radio" name="gender" value="m" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="f" id="female" checked>
+                <label for="female">Female</label><br>
+                <label>
+                    Age:
+                    <input type="text" name="age" size="10" maxlength="5" required="required">
+                </label>
+                <label>
+                    Nationality:
+                    <select name="country">
+                        <option value="Nigerian">Nigerian</option>
+                        <option value="chineese">chineese</option>
+                        <option value="british">British</option>
+                        <option value="american">American</option>
+                        <option value="italian">Italian</option>
+                        <option value="russian">Russian</option>
+                    </select>
+                </label><br>
+                <label>
+                    <p>Any of this health problem:
+                    <input type="checkbox" value="diabetis" name="health"> diabetis
+                    <input type="checkbox" value="hypertension" name="health"> hypertension
+                    <input type="checkbox" value="lung problem" name="health"> lung problem
+                    <input type="checkbox" value="hiv/Aids" name="health>"> Hiv/Aid
+                    </p>
+                </label>
+                <label>
+                    telephone:
+                    <input type="tel" name="telephone">
+                </label>
+                <label>
+                    email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    submit:
+                    <input type="submit" name="submit">
+                </label>
+            </fieldset>
+        </form>
+        <h2>symptoms of covid-19</h2>
+        <p>covid-19 is not really a deadly disease as you think, but it is quite treatable when it's noticed as early as possible and you can recover from it if given necessary medical treatment <br> there are two types of covid-19 which include <i>the mild one</i> and the <i>asymptatic one</i> the various symptoms you could exoeriencing are listed down below</i></p>
+            <ul>
+                <li>cough: this can be dry cough or the one with mucus</li>
+                <li>fever: this fever might be a sever one and it might just be the normal one</li>
+                <li>running nose</li>
+                <li>muscle pain</li>
+                <li>running temperature</li>
+            </ul>
+        <p>this listed above symptoms might just be mild or a severe one once it's noticed you contact the necessary medical orgs recommended to carry out the test in various country in line with the world health organization <b>WHO</b></b></p>
+        <h2>preventions to be taken to prevent the spread of covid-19</h2>
+        <p>the covid-19 currently has no cure as scientist all aroud the world are currently looking for a way to get a vaccine to kill the spread of this pandemic but as of the current widespreading  of the pandemic the world health recommended this preventions just to curb the spread of the covid-19</p>
+        <ol>
+            <li>ensure you stay indoors just to prevent the spread</li>
+            <li>maintain social distance; of at least 3 meter distance</li>
+            <li>use sanitizer or water and soap to wash your hands frequntly</li>
+            <li>when you notice any of the above symptoms try to isolate yourself for 14days just to checkbalance if it's truly the covid-19</li>
+        </ol>
+        <form action="http://covid-19.php" method="GET">
+            <fieldset>
+                <legend>comments</legend>
+            <p>if you have any comments or you want to get things through:</p>
+            <label>
+                <textarea name="comments" cols="40" rows="10">kindly drop your message</textarea>
+            </label>
+            <input type="submit" name="submit" value="submit">
+            </fieldset>
+        </form>
+        <div class="footer">
+            <p>&copy;Oluwatosin Temitope 2020</p>
+        </div>
+        
+    </body>
+</html>
